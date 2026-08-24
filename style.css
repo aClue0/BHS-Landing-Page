@@ -21,8 +21,10 @@ body {
   height: 140vh;
 }
 
+/* .content-wrapper typically puts everything together and prevents duplicate code */
 .content-wrapper {
   width: 100%;
+  /* This max-width I discovered is really important because it centers everything */
   max-width: 75rem;
   margin: 0 auto;
   padding: 0px 16px;
@@ -53,12 +55,12 @@ body {
 .hero-container {
   color: white;
   background-color: #1f2937;
-  height: 25rem;
+  padding: 4rem 0;
 }
 .hero-container .content-wrapper {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-between;
 }
 .hero-title {
   font-size: 48px;
@@ -66,22 +68,25 @@ body {
   font-weight: 900;
 }
 .hero-text {
-  margin-top: 8px;
+  margin-top: 5px;
   font-size: 18px;
   color: #e5e7eb;
   font-weight: normal;
 }
 .sign-up {
+  margin-top: 1rem;
   background-color: #3b82f6;
   border-color: #3b82f6;
   color: white;
-  padding: 8px 24px;
+  padding: 8px 32px;
   font-weight: 900;
   border-radius: 8px;
 }
 .image {
   width: 600px;
   height: 200px;
-  margin: 0 50px;
+  margin-left: 50px;
   background-color: white;
 }
+
+/* MAIN CONTENT AREA */

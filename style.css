@@ -32,7 +32,7 @@ body {
 /* NAVIGATION BAR */
 .nav {
   padding: 16px 0;
-  background-color: #1f2937;
+  background-color: #789ecd;
   color: white;
 }
 .nav .content-wrapper {
@@ -54,7 +54,7 @@ body {
 /* HERO SECTION */
 .hero-container {
   color: white;
-  background-color: #1f2937;
+  background-color: #ffb447;
   padding: 4rem 0;
 }
 .hero-container .content-wrapper {
@@ -90,3 +90,32 @@ body {
 }
 
 /* MAIN CONTENT AREA */
+
+.content-title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 2rem auto;
+  background-color: #ff985b;
+  color: white;
+  width: fit-content;
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+}
+
+.right,
+.left,
+.main-content.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right {
+  flex-direction: row-reverse;
+}
+.card {
+  margin: 16px 0;
+  height: 300px;
+  width: 400px;
+  background-color: #789ecd;
+}

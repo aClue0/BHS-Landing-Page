@@ -80,14 +80,19 @@ a.logo {
 }
 .sign-up {
   margin-top: 1rem;
-  background-color: #4792ff;
-  border-color: white;
+  background-color: cadetblue;
+  border-color: cadetblue;
   color: white;
   padding: 1rem 2rem;
   font-size: 1rem;
   font-weight: 900;
   border-radius: 8px;
   flex-shrink: 0;
+}
+.sign-up:hover {
+  background-color: #4792ff;
+  border-color: #4792ff;
+  cursor: pointer;
 }
 .image {
   width: 700px;
@@ -209,6 +214,10 @@ a.logo {
   font-weight: normal;
 }
 
+.sign-up.time {
+  background-color: dodgerblue;
+  border-color: dodgerblue;
+}
 /* FOOTER */
 .footer {
   width: 100%;

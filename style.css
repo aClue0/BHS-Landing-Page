@@ -102,20 +102,25 @@ body {
   border-radius: 20px;
 }
 
-.right,
-.left,
-.main-content.content-wrapper {
+.feature-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 12rem;
+  margin-bottom: 4rem;
 }
 
-.right {
+.feature-row.reverse {
   flex-direction: row-reverse;
 }
 .card {
-  margin: 16px 0;
   height: 300px;
   width: 400px;
   background-color: #789ecd;
+}
+
+/* QUOTE PART */
+.quote-container .content-wrapper {
+  background-color: #e5e7eb;
+  padding: 4rem 8rem;
 }

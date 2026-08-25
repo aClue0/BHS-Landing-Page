@@ -99,7 +99,7 @@ a.logo {
 /* MAIN CONTENT AREA */
 
 .main-content .content-wrapper {
-  max-width: 67rem;
+  max-width: 70rem;
 }
 .content-title {
   font-size: 42px;
@@ -117,7 +117,7 @@ a.logo {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 2rem;
-  gap: 1rem;
+  gap: 4rem;
 }
 
 .card {

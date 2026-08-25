@@ -36,7 +36,7 @@ img {
 }
 /* NAVIGATION BAR */
 .nav {
-  background-color: #789ecd;
+  background-color: #ffb447;
   color: white;
 }
 .nav .content-wrapper {
@@ -80,7 +80,7 @@ a.logo {
 }
 .sign-up {
   margin-top: 1rem;
-  background-color: #3b82f6;
+  background-color: #4792ff;
   border-color: white;
   color: white;
   padding: 1rem 2rem;
@@ -105,7 +105,7 @@ a.logo {
   font-size: 42px;
   font-weight: 900;
   margin: 2rem auto;
-  background-color: rosybrown;
+  background-color: #3b82f6;
   color: white;
   width: fit-content;
   padding: 0.5rem 2rem;

@@ -50,7 +50,7 @@ img {
   font-size: 16px;
   gap: 16px;
 }
-.logo {
+a.logo {
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
@@ -87,6 +87,7 @@ img {
   font-size: 1rem;
   font-weight: 900;
   border-radius: 8px;
+  flex-shrink: 0;
 }
 .image {
   width: 700px;
@@ -98,7 +99,7 @@ img {
 /* MAIN CONTENT AREA */
 
 .main-content .content-wrapper {
-  max-width: 65rem;
+  max-width: 67rem;
 }
 .content-title {
   font-size: 42px;
@@ -121,14 +122,14 @@ img {
 
 .card {
   height: 300px;
-  width: 400px;
+  width: 500px;
   background-color: #789ecd;
   border-radius: 20px;
   object-fit: cover;
 }
 
 .card-description {
-  max-width: 400px;
+  max-width: 500px;
   text-align: center;
 }
 .card-title {
@@ -212,7 +213,7 @@ img {
 .footer {
   width: 100%;
   padding: 2rem 0;
-  background-color: darkorange;
+  background-color: #789ecd;
   margin: 0 auto;
   padding: 16px 16px;
 }

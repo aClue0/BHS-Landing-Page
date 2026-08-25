@@ -29,6 +29,11 @@ body {
   margin: 0 auto;
   padding: 0px 16px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 /* NAVIGATION BAR */
 .nav {
   background-color: #789ecd;
@@ -84,10 +89,10 @@ body {
   border-radius: 8px;
 }
 .image {
-  width: 600px;
-  height: 200px;
-  margin-left: 50px;
-  background-color: white;
+  width: 700px;
+  object-fit: cover;
+  margin-left: 6rem;
+  border-radius: 20px;
 }
 
 /* MAIN CONTENT AREA */
@@ -96,10 +101,10 @@ body {
   max-width: 65rem;
 }
 .content-title {
-  font-size: 3rem;
+  font-size: 42px;
   font-weight: 900;
   margin: 2rem auto;
-  background-color: #ff985b;
+  background-color: rosybrown;
   color: white;
   width: fit-content;
   padding: 0.5rem 2rem;
@@ -113,6 +118,15 @@ body {
   margin-bottom: 2rem;
   gap: 1rem;
 }
+
+.card {
+  height: 300px;
+  width: 400px;
+  background-color: #789ecd;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
 .card-description {
   max-width: 400px;
   text-align: center;
@@ -133,19 +147,13 @@ body {
 .feature-row.reverse {
   flex-direction: row-reverse;
 }
-.card {
-  height: 300px;
-  width: 400px;
-  background-color: #789ecd;
-  border-radius: 20px;
-}
 .card-title {
   font-size: 2rem;
 }
 
 /* QUOTE PART */
 .quote-container {
-  background-color: #e5e7eb;
+  background-color: powderblue;
   padding: 4rem 8rem;
   margin: 2rem 0;
 }
@@ -153,17 +161,26 @@ body {
   max-width: 52rem;
   min-width: 40rem;
 }
+.quotes {
+  display: flex;
+  gap: 7rem;
+}
 
 .quote {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 300;
   color: #1f2937;
+}
+.popping {
+  color: orange;
+  font-weight: 900;
 }
 .author {
   display: flex;
   margin-top: 1rem;
-  font-size: 24px;
+  font-size: 18px;
   justify-content: flex-end;
+  color: royalblue;
 }
 
 /* CALL TO ACTION */
@@ -195,7 +212,7 @@ body {
 .footer {
   width: 100%;
   padding: 2rem 0;
-  background-color: #1f2937;
+  background-color: darkorange;
   margin: 0 auto;
   padding: 16px 16px;
 }
